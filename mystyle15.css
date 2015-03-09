@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+/* 　一度画像を全てを非表示にして、absoluteを指定して画像を重ねる */
+/*
+#tw_imgs img{
+    display:none;
+    position: absolute;
+    cursor: pointer;
+}
+*/
+/* 1枚目の画像だけを表示 */
+/*
+#tw_imgs .tw_img:nth-child(1) {
+    display:block;
+}
+*/
+.tw_screen {
+	color: blue;
+}
